@@ -2,11 +2,44 @@
 //
 
 #include <iostream>
+#include <vector>
+using namespace std;
 
-int main()
+void main()
 {
-    std::cout << "Hello World!\n";
+    //Tao mang dong luu diem
+    vector <float> diem;
+
+    //Them diem cua 5 nguoi
+    diem.push_back(6);
+    diem.push_back(7.5);
+    diem.push_back(4.2);
+    diem.push_back(6.4);
+    diem.push_back(5.9);
+
+    //Xoa diem cua 1 nguoi cuoi cung
+    diem.pop_back();
+
+    //Duyet qua mang diem va in ra man hinh
+    for (int i = 0; 1 < diem.size(); i++)
+    {
+        cout << diem[i] << endl;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
