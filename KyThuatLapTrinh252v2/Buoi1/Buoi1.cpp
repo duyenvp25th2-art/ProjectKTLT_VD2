@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-void main()
+int main()
 {
     //Tao mang dong luu diem
     vector <float> diem;
@@ -21,10 +21,11 @@ void main()
     diem.pop_back();
 
     //Duyet qua mang diem va in ra man hinh
-    for (int i = 0; 1 < diem.size(); i++)
+    for (int i = 0; i < diem.size(); i++)
     {
         cout << diem[i] << endl;
     }
+    return 0;
 }
 
 
