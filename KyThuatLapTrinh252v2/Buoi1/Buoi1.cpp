@@ -5,17 +5,17 @@
 #include <vector>
 using namespace std;
 
-void main()
-{
-    int a = 5;
-    int* p = &a;
-    a = 8;
-    *p = 10;
-    cout << a << "\t" << *p;
-
-
-
-}
+//void main()
+//{
+//    int a = 5;
+//    int* p = &a;
+//    a = 8;
+//    *p = 10;
+//    cout << a << "\t" << *p;
+//
+//Note: Hinh nhu thieu vai cai gi do ma tui khong chung minh duoc
+// 
+//}
 
 
 void bai1()
