@@ -5,7 +5,20 @@
 #include <vector>
 using namespace std;
 
-int main()
+void main()
+{
+    int a = 5;
+    int* p = &a;
+    a = 8;
+    *p = 10;
+    cout << a << "\t" << *p;
+
+
+
+}
+
+
+void bai1()
 {
     //Tao mang dong luu diem
     vector <float> diem;
@@ -25,7 +38,6 @@ int main()
     {
         cout << diem[i] << endl;
     }
-    return 0;
 }
 
 
