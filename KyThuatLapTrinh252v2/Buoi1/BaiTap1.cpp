@@ -109,7 +109,7 @@ void Import(vector<Person>& p, string filename) {
 		in.read(reinterpret_cast<char*>(&hometownLength), sizeof(hometownLength));
 		a.hometown.resize(hometownLength);
 		in.read(&a.hometown[0], hometownLength);
-
+		
 		p.push_back(a);
 	}
 	in.close();
